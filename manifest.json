@@ -1,0 +1,19 @@
+{
+    "name": "News Flash",
+    "version": "1.0.0",
+    "description": "Extension to check latest news updates",
+    "manifest_version": 3,
+    "author": "Mehek Fatima",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "mehek's chrome extension"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "https://newsapi.org/*"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self'; connect-src 'self' https://newsapi.org; img-src 'self' data: https://*; frame-src 'self' https://*;"
+    }
+  }
