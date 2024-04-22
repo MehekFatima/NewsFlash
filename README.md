@@ -27,9 +27,9 @@ News Flash is a simple Chrome extension that provides a quick way to browse and 
 
 4. Click on any headline to open the full article in a new tab.
 
-## Screenshots
+## Screenshot
 
-![Popup](screenshots/popup.png)
+![Popup](https://github.com/MehekFatima/NewsFlash/blob/main/Screenshot%202024-04-22%20141357.png?raw=true)
 
 ## Built With
 
